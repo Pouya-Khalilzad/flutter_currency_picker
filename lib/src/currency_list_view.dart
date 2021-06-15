@@ -214,7 +214,7 @@ class _CurrencyListViewState extends State<CurrencyListView> {
                 padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: Text(
                   currency.symbol,
-                  style: const TextStyle(fontSize: 18),
+                  style: _titleTextStyle,
                 ),
               ),
             ],
