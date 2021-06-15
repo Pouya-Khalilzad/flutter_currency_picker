@@ -116,6 +116,7 @@ class _CurrencyListViewState extends State<CurrencyListView> {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
           child: TextField(
+            style: widget.theme?.titleTextStyle ?? _defaultTitleTextStyle,
             controller: _searchController,
             decoration: InputDecoration(
               labelText: widget.searchHint ?? "Search",
